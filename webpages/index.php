@@ -27,7 +27,7 @@ $fname1=""; $fname2=""; $fname3="";
 	        echo $e->getMessage();
 	        exit();
 	      }
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+	                                                                        
 	        $p_id="1";
 	      	$pagedet = Pagedetail::findById($p_id);
 	  		$parid=$pagedet->getParId();
@@ -57,7 +57,7 @@ $fname1=""; $fname2=""; $fname3="";
 			 if ($fname3===NULL)
 				$fname3=$cd->findByIdContforS("1","3");
 
-	      include("/child/sweethome.inc");
+	      include("../webpages/child/sweethome.inc");
 	      
 	      break;
 	  
@@ -93,7 +93,7 @@ $fname1=""; $fname2=""; $fname3="";
  			$fname3=$cd->findByIdContforP($page_id,"2");
 			 if ($fname3===NULL)
 				$fname3=$cd->findByIdContforS("1","3");
-			include("/child/webpages.inc");
+			include("../webpages/child/webpages.inc");
 
 			break;
 			
@@ -131,7 +131,7 @@ $fname1=""; $fname2=""; $fname3="";
 			 if ($fname3===NULL)
 				$fname3=$cd->findByIdContforS("1","3");
 
-	      include("/child/leftlinks.inc");
+	      include("../webpages/child/leftlinks.inc");
 
 		break;
 			
