@@ -2,7 +2,7 @@
 include_once("../classfiles/pagedetails.class");  
 include_once("../classfiles/settings.class");  
 include_once("../classfiles/ContentDownload.class");
-$base_url = "http://law-firm.orchestra.io";
+$base_url = "luckylawfirm.orchestra.io";
 $trail = "<a href='$base_url'>Home</a>";
 
 	$page["browse_level"] = isset($_GET['browse_level']) ?
