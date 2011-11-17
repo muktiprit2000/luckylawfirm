@@ -98,7 +98,7 @@
 													?>
 			
 							                	 </dl>
-												 <br/><br/>
+												
 												<?php 
 												echo "<img  height=\"132\" longdesc=\"leftimage\" src=\"../images/".$fname3."\" width=\"60%\" />"; ?>
  
