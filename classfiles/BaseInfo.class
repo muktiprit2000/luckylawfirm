@@ -29,7 +29,7 @@ class BaseInfo
   protected static function getgridConnection()		//gives the gridFS connection for storing files in database
   {
     $db = new Database("../incfiles/Vars.inc");
-    $db->useDatabase("");
+    $db->useDatabase();
 	$db->setgridFS();
 	return $db->getgridFS();
   }
