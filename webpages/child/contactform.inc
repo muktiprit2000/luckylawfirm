@@ -108,7 +108,7 @@ $fname3=$cd->findByIdContforP("6","2");
 						<table style="width:100%">
 						<tr>
 
-							<td valign="top" style="width:30%">
+							<td valign="top" style="width:27%">
 							<div class="leftnavigation">
 									<br /><br/>
 									<p class="BodyTitles">

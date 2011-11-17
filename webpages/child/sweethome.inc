@@ -77,7 +77,7 @@
 									<table style="width:100%">
 									<tr>
 
-									<td valign="top" style="width:30%">
+									<td valign="top" style="width:27%">
 											<div class="leftnavigation">
 												
 												<dl class="leftlinks" >
