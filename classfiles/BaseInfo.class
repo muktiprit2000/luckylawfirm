@@ -21,7 +21,7 @@ class BaseInfo
   protected static function getConnection($coll)	//gives the database connection with given collection 
   {
     $db = new Database("../incfiles/Vars.inc");
-    $db->useDatabase("Law-FirmCMS");
+    $db->useDatabase();
 	$db->setCollection($coll);
 	return $db->getCollection();
   }
@@ -29,7 +29,7 @@ class BaseInfo
   protected static function getgridConnection()		//gives the gridFS connection for storing files in database
   {
     $db = new Database("../incfiles/Vars.inc");
-    $db->useDatabase("Law-FirmCMS");
+    $db->useDatabase("");
 	$db->setgridFS();
 	return $db->getgridFS();
   }
