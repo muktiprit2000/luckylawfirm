@@ -188,6 +188,16 @@ $fname3=$cd->findByIdContforP("6","2");
 									</form>
 								</table>	
 							</div>	
+							<?php                                                     #26
+										if (isset($GLOBALS['message_2']))                       #27
+										{                                                      
+											echo "<span style=\"font-weight: bold; 
+											font-style: italic; 
+											font-size: 90%; color: red\">
+											{$GLOBALS['message_3']}</span>\n";
+										}
+									 
+									?>
 							
 							<span class="BodyRegularFonts"><?php echo $description ?></span>
 									
@@ -204,10 +214,10 @@ $fname3=$cd->findByIdContforP("6","2");
 						<td >
 							<div class="footer">
 								<ul>
-									<li><a href="../webpages/default.php">SITE MAP</a></li>
-									<li><a href="../webpages/default.php?page_id=2&browse_level=links">TERMS OF USE</a></li>
-									<li><a href="../webpages/default.php?page_id=3&browse_level=links">FIRM OVERVIEW</a></li>
-									<li><a href="../webpages/default.php?page_id=4&browse_level=links">PRIVACY POLICY</a></li>
+									<li><a href="">SITE MAP</a></li>
+									<li><a href="">TERMS OF USE</a></li>
+									<li><a href"">FIRM OVERVIEW</a></li>
+									<li><a href="">PRIVACY POLICY</a></li>
 									<li class="BodyRegularFonts"> © 2010 CAREY LAW GROUP PA. All rights reserved. Attorney Advertising</li>									
 								</ul>
 								 

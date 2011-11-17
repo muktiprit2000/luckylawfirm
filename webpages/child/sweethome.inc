@@ -128,7 +128,7 @@
 											<li><a href="">TERMS OF USE</a></li>
 											<li><a href="">FIRM OVERVIEW</a></li>
 											<li><a href="">PRIVACY POLICY</a></li>
-											<li class="BodyRegularFonts"> © 2010 CAREY LAW GROUP PA. All rights reserved. Attorney Advertising</li>									
+											<li class="BodyRegularFonts"> © 2011 Lucky Law Group, PA. All rights reserved. Attorney Advertising</li>									
 										</ul>
 										 
 		

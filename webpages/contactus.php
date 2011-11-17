@@ -88,14 +88,11 @@ else                                                     #32
 					   $contact_item = new Contact(NULL,$clientname,
 						$email, $phone, $subject,$message, $date);
 						$contactid = $contact_item->save();
-						
+						$GLOBALS['message_3']= "Thank you for contacting us. We will be contacting you soon.";
 					}
-				 else
-					header("Location: ..webpages/contactus.php");
+				 
 
-				$GLOBALS['message_2']= "Thank you for contacting us. We will be contacting you soon.";
-				
-				header("Location: http://law-firm.orchestra.io/contactus.php");
+				header("Location: http://luckylawfirm.orchestra.io/contactus.php");
 			}
 			catch(Exception $e)
 			{
