@@ -161,7 +161,7 @@
 						<tr>
 						<td class="auto-style5" style="width:380px">Resources</td>;
 						<td class="auto-style5" align="center"><a href="contentmain1.php?par_id=5&browse_level=manage">Manage</a></td>
-						<td class="auto-style5" align="center"><a href="contentmain1.phppage_id=5&browse_level=edit">Edit</a></td>
+						<td class="auto-style5" align="center"><a href="contentmain1.php?page_id=5&browse_level=edit">Edit</a></td>
 						</tr>
 						<tr>
 						<td class="auto-style5" style="width:380px">Contact Us</td>;
