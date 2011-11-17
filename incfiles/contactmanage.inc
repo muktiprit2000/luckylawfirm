@@ -4,7 +4,7 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title>Untitled 1</title>
-<link href="http://lawfirm-admin.orchestra.io/css/masteradmin.css" rel="stylesheet" type="text/css" />
+<link href="http://luckylawfirm-admin.orchestra.io/css/masteradmin.css" rel="stylesheet" type="text/css" />
 
 
 </head>
@@ -35,8 +35,8 @@
 				                      &nbsp;<span class="BodyText"><dt style="width: 160px"><a href="contentmain1.php"">Content Management</a></dt></span>
 				                      &nbsp;<span class="BodyText"><dt><a href="sitesettings.php">Site Setting</a></dt></span>
 				                      &nbsp;<span class="BodyText"><dt><a href="contactmanage.php">Contact Us</a></dt></span>
-				                      &nbsp;<span class="BodyText"><dt><a href="/practice-areas/EquitableDistribution/">Roles</a></dt></span>
-				                      &nbsp;<span class="BodyText"><dt><a href="/practice-areas/Alimony/">User</a></dt></span>
+				                      &nbsp;<span class="BodyText"><dt><a href="">Roles</a></dt></span>
+				                      &nbsp;<span class="BodyText"><dt><a href="">User</a></dt></span>
 				                      &nbsp;<span class="BodyText"><dt><a href="logout.php">Logout</a></dt></span>
 				                      
 

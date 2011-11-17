@@ -64,8 +64,8 @@ if($sess->getVariable("auth")!="yes")
 				                      &nbsp;<span class="BodyText"><dt><a href="sitesettings.php">Site Setting</a></dt></span>
 				                      &nbsp;<span class="BodyText"><dt><a href="contactmanage.php">Contact Us</a></dt></span>
 
-				                      &nbsp;<span class="BodyText"><dt><a href="/practice-areas/EquitableDistribution/">Roles</a></dt></span>
-				                      &nbsp;<span class="BodyText"><dt><a href="/practice-areas/Alimony/">User</a></dt></span>
+				                      &nbsp;<span class="BodyText"><dt><a href="">Roles</a></dt></span>
+				                      &nbsp;<span class="BodyText"><dt><a href="">User</a></dt></span>
 				                      &nbsp;<span class="BodyText"><dt><a href="logout.php">Logout</a></dt></span>
 				                      
 

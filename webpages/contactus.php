@@ -86,7 +86,7 @@ else                                                     #32
 					{
 					   $date="";
 					   $contact_item = new Contact(NULL,$clientname,
-						$email, $phone, $subject,$message, $date);
+						$email, $cphone, $subject,$message, $date);
 						$contactid = $contact_item->save();
 						$GLOBALS['message_3']= "Thank you for contacting us. We will be contacting you soon.";
 					}
