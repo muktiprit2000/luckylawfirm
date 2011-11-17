@@ -115,7 +115,7 @@ $fname3=$cd->findByIdContforP("6","2");
 										Contact Us</p>
 				                      <br /><br/><br /><br/>
 				                	<?php 
-								echo "<img  height=\"132\" longdesc=\"midimage\" src=\"../images/".$fname3."\" width=\"70%\" />"; ?>
+								echo "<img  height=\"132\" longdesc=\"midimage\" src=\"../images/".$fname3."\" width=\"60%\" />"; ?>
  
 								
 							 </div>
