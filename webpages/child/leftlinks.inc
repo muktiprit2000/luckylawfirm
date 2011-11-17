@@ -4,7 +4,7 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title><?php echo $pagetitle ?> </title>
-<link href="http://law-firm.orchestra.io/css/Home.css" rel="stylesheet" type="text/css" />
+<link href="/css/Home.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -77,7 +77,7 @@
 									<table style="width:100%">
 									<tr>
 
-									<td valign="top" style="width:20%" >
+									<td valign="top" style="width:30%" >
 											<div class="leftnavigation">
 												
 												<dl class="leftlinks"  >
@@ -98,6 +98,7 @@
 													?>
 															
 							                	 </dl>
+												<br/><br/>
 													<?php 
 													echo "<img  height=\"132\" longdesc=\"leftimage\" src=\"../images/".$fname3."\" width=\"80%\" />"; ?>
  

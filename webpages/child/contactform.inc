@@ -108,12 +108,12 @@ $fname3=$cd->findByIdContforP("6","2");
 						<table style="width:100%">
 						<tr>
 
-							<td valign="top" style="width:20%">
+							<td valign="top" style="width:30%">
 							<div class="leftnavigation">
 									<br /><br/>
 									<p class="BodyTitles">
 										Contact Us</p>
-				                      
+				                      <br /><br/><br /><br/>
 				                	<?php 
 								echo "<img  height=\"132\" longdesc=\"midimage\" src=\"../images/".$fname3."\" width=\"80%\" />"; ?>
  
