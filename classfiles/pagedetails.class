@@ -80,8 +80,7 @@ class Pagedetail extends BaseInfo
     $results=$cxn->find(array('parentid'=>"0"));
 	if (!$results)
     {
-      throw new Exception("Problem getting data: ".
-                          $cxn->error);
+      throw new Exception("Problem getting data: ");
     }
     $depts = array();
 	foreach ($results as $db) {
@@ -97,16 +96,12 @@ class Pagedetail extends BaseInfo
 public static function findAll()                     
   {
     $cxn = parent::getConnection("pagecontent");                     #25
-    /*$sql = "SELECT dept_id, name, description
-              FROM Pagedetail
-             ORDER BY name";
-    $results = $cxn->query($sql);*/
+    
 	$results=$cxn->find();
     
 	if (!$results)
     {
-      throw new Exception("Problem getting data: ".
-                          $cxn->error);
+      throw new Exception("Problem getting data: ");
     }
     $depts = array();
 	foreach ($results as $db) {
@@ -124,15 +119,10 @@ public static function findAll()
   {
     $cxn = parent::getConnection("pagecontent");
     $result=$cxn->findOne(array('pageid'=>$id));
-    /*$sql = "SELECT dept_id, name, description
-            FROM Department
-            WHERE dept_id = $id";
-    $results = $cxn->query($sql);*/
-    
+        
     if (!$result)
     {
-      throw new Exception("Problem getting data: " +
-                          $cxn->error);
+      throw new Exception("Problem getting data: " );
     }
                 
     
@@ -162,15 +152,10 @@ public static function findAll()
   {
   $cxn = parent::getConnection("pagecontent");
     $result=$cxn->findOne(array('parentid'=>$page_id));
-    /*$sql = "SELECT dept_id, name, description
-            FROM Department
-            WHERE dept_id = $id";
-    $results = $cxn->query($sql);*/
-    
+       
     if (!$result)
     {
-      throw new Exception("Problem getting data: " +
-                          $cxn->error);
+      throw new Exception("Problem getting data: ");
     }
                 
     
@@ -222,7 +207,7 @@ public static function findAll()
     {
 	  $cxn = parent::getConnection("pagecontent");
 	  $var=Pagedetail::docsInCollection();
-	  $var++;
+	  $var=$var+1;
   	  $this->id=strval($var) ;
       $doc=array('pageid'=>$this->id,'pagename'=>$this->name,'pagetitle'=>$this->pagetitle,'pagebody'=>$this->description,
 	 			'metatitle'=>$this->metatitle, 'metakeys'=>$this->metakeys, 'metadescription'=>$this->metadesc,
@@ -247,8 +232,7 @@ public static function findAll()
 	$results=$cxn->remove(array('pageid'=>$this->id));
     if (!$results)
     {
-      throw new Exception("Problem deleting data: " +
-                          $cxn->error);
+      throw new Exception("Problem deleting data: ");
     }
     
   }
